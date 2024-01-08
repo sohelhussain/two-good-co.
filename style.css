@@ -75,7 +75,7 @@ nav{
 }
 #container-second{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 1.5vw 2vw;
 }
 #container-second img{
@@ -86,7 +86,7 @@ nav{
 }
 #container-third{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -288,7 +288,7 @@ nav{
         top: 1100%;
     }
     #container-second{
-        min-height: 0vh;
+        min-height: 20vh;
         background-color: rgb(43, 174, 226);
     }
     #container-second img{
@@ -314,5 +314,57 @@ nav{
         align-items: center;
         justify-content: center;
         position: relative;
+    }
+    #container-third{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #container-four{
+        width: 100%;
+        min-height: 100vh;
+        background-color: aliceblue;
+        position: relative;
+        padding-top: 115%;
+    }
+    #container-four .four-text{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5px 10px;
+        font-family: helv;
+        margin-top: -30px;
+    }
+    .cursor{
+        display: none;
+    }
+    #container-four .four-text .four-left{
+        padding: 1px 22px;
+        font-size: 7vw;
+        line-height: 7vw;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-family: futur;
+        position: relative;
+        left: -150px;
+    }
+    #container-four .four-text .four-left p{
+        top: -315px;
+    }
+    .four-right{
+        font-size: 4.5vw;
+        margin-right: 0px;
+        margin-top: -150px;
+        text-align: center;
+    }
+    .four-right p{
+        margin-bottom: 10px;
+        line-height: 6vw;
+        letter-spacing: 0px;
     }
 }
